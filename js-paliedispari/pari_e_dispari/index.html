@@ -7,6 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="script.js"></script>
+    <div>
+        <label for="numero">Scegli un numero</label>
+        <input type="text" id="numero">   
+    </div>
+    <div>
+        <div>
+            <label for="pari_dispari">Dispari</label>
+            <input type="text" id="pari_dispari">
+        </div>
+    </div>
+    <button onclick = "pariDispari()">Vedi se hai vinto!</button>
+    <div id="risposta" style="display: flex; flex-direction: column"></div>
+    <script src="script.js"></script> 
 </body>
 </html>
